@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B9234B511D9E2E7F001EE0B5 /* GooglePlacePicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B9234B501D9E2E7E001EE0B5 /* GooglePlacePicker.bundle */; };
-		B9EE04781D9D9011003E7610 /* GooglePlacePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = B9EE04761D9D9011003E7610 /* GooglePlacePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9EE047F1D9D9029003E7610 /* GooglePlacePicker in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE047E1D9D9029003E7610 /* GooglePlacePicker */; };
-		B9EE04821D9D9032003E7610 /* GMSPlacePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = B9EE04801D9D9032003E7610 /* GMSPlacePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9EE04831D9D9032003E7610 /* GMSPlacePickerConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = B9EE04811D9D9032003E7610 /* GMSPlacePickerConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6836CF502183777900A851FB /* GMSPlacePickerConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 6836CF4C2183777900A851FB /* GMSPlacePickerConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6836CF512183777900A851FB /* GooglePlacePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 6836CF4D2183777900A851FB /* GooglePlacePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6836CF522183777900A851FB /* GMSPlacePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 6836CF4E2183777900A851FB /* GMSPlacePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6836CF532183777900A851FB /* GMSPlacePickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6836CF4F2183777900A851FB /* GMSPlacePickerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6836CF58218377A900A851FB /* GooglePlacePicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6836CF57218377A900A851FB /* GooglePlacePicker.bundle */; };
 		B9EE04861D9D90D1003E7610 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE04851D9D90D1003E7610 /* GoogleMaps.framework */; };
 		B9EE04881D9D90D3003E7610 /* GooglePlaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE04871D9D90D3003E7610 /* GooglePlaces.framework */; };
 		B9EE048A1D9D90E7003E7610 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE04891D9D90E7003E7610 /* CoreGraphics.framework */; };
@@ -22,13 +22,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B9234B501D9E2E7E001EE0B5 /* GooglePlacePicker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GooglePlacePicker.bundle; sourceTree = "<group>"; };
+		6836CF4C2183777900A851FB /* GMSPlacePickerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPlacePickerConfig.h; sourceTree = "<group>"; };
+		6836CF4D2183777900A851FB /* GooglePlacePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GooglePlacePicker.h; sourceTree = "<group>"; };
+		6836CF4E2183777900A851FB /* GMSPlacePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPlacePicker.h; sourceTree = "<group>"; };
+		6836CF4F2183777900A851FB /* GMSPlacePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPlacePickerViewController.h; sourceTree = "<group>"; };
+		6836CF562183779800A851FB /* GooglePlacePicker */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = GooglePlacePicker; sourceTree = "<group>"; };
+		6836CF57218377A900A851FB /* GooglePlacePicker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GooglePlacePicker.bundle; sourceTree = "<group>"; };
 		B9EE04731D9D9011003E7610 /* GooglePlacePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GooglePlacePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9EE04761D9D9011003E7610 /* GooglePlacePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GooglePlacePicker.h; sourceTree = "<group>"; };
 		B9EE04771D9D9011003E7610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B9EE047E1D9D9029003E7610 /* GooglePlacePicker */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = GooglePlacePicker; sourceTree = "<group>"; };
-		B9EE04801D9D9032003E7610 /* GMSPlacePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPlacePicker.h; sourceTree = "<group>"; };
-		B9EE04811D9D9032003E7610 /* GMSPlacePickerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPlacePickerConfig.h; sourceTree = "<group>"; };
 		B9EE04851D9D90D1003E7610 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Carthage/Build/iOS/GoogleMaps.framework; sourceTree = "<group>"; };
 		B9EE04871D9D90D3003E7610 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Carthage/Build/iOS/GooglePlaces.framework; sourceTree = "<group>"; };
 		B9EE04891D9D90E7003E7610 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -50,7 +51,6 @@
 				B9EE04861D9D90D1003E7610 /* GoogleMaps.framework in Frameworks */,
 				B9EE04921D9D9120003E7610 /* GoogleMapsBase.framework in Frameworks */,
 				B9EE04881D9D90D3003E7610 /* GooglePlaces.framework in Frameworks */,
-				B9EE047F1D9D9029003E7610 /* GooglePlacePicker in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,11 +77,12 @@
 		B9EE04751D9D9011003E7610 /* GooglePlacePicker */ = {
 			isa = PBXGroup;
 			children = (
-				B9234B501D9E2E7E001EE0B5 /* GooglePlacePicker.bundle */,
-				B9EE047E1D9D9029003E7610 /* GooglePlacePicker */,
-				B9EE04801D9D9032003E7610 /* GMSPlacePicker.h */,
-				B9EE04811D9D9032003E7610 /* GMSPlacePickerConfig.h */,
-				B9EE04761D9D9011003E7610 /* GooglePlacePicker.h */,
+				6836CF4E2183777900A851FB /* GMSPlacePicker.h */,
+				6836CF4C2183777900A851FB /* GMSPlacePickerConfig.h */,
+				6836CF4F2183777900A851FB /* GMSPlacePickerViewController.h */,
+				6836CF4D2183777900A851FB /* GooglePlacePicker.h */,
+				6836CF562183779800A851FB /* GooglePlacePicker */,
+				6836CF57218377A900A851FB /* GooglePlacePicker.bundle */,
 				B9EE04771D9D9011003E7610 /* Info.plist */,
 			);
 			path = GooglePlacePicker;
@@ -108,9 +109,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9EE04831D9D9032003E7610 /* GMSPlacePickerConfig.h in Headers */,
-				B9EE04821D9D9032003E7610 /* GMSPlacePicker.h in Headers */,
-				B9EE04781D9D9011003E7610 /* GooglePlacePicker.h in Headers */,
+				6836CF502183777900A851FB /* GMSPlacePickerConfig.h in Headers */,
+				6836CF532183777900A851FB /* GMSPlacePickerViewController.h in Headers */,
+				6836CF522183777900A851FB /* GMSPlacePicker.h in Headers */,
+				6836CF512183777900A851FB /* GooglePlacePicker.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9234B511D9E2E7F001EE0B5 /* GooglePlacePicker.bundle in Resources */,
+				6836CF58218377A900A851FB /* GooglePlacePicker.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
